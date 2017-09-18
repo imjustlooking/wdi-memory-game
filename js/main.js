@@ -52,6 +52,7 @@ var createBoard = function () {
 
 createBoard();
 
+/* if refreshing page, then keeping score not very possible*/
 var reset = function() {
   window.location.reload();
 }
